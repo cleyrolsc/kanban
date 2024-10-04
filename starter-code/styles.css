@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px;
+}
+
+
+
+/* Header */
+
+header{
+    padding-left: 250px;
+}
+
+.top-nav{
+    border-bottom: solid 2px black;
+}
+
+.title{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.add-task{
+    margin-right: 1rem;
+}
+
+/* 
+Main */
+
+main{
+    padding-left: 250px;
+    height: 80vh;
+}
+
+/* Sidebar */
+
+ul{
+    
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-side{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: solid 2px black;
+    padding-top: 15px;
+}
+
+
+/* Middle Section */
+
+.middle-section li{
+    margin-bottom: 10px;
+}
+
+/* 
+Bottom Section */
+
+.bottom-section{
+    position: absolute;
+    bottom: 15px;
+}
